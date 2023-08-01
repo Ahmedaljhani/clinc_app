@@ -1,11 +1,12 @@
 import 'dart:ffi';
 
-import 'package:first_class/shared_pref.dart';
+import 'package:first_class/splash_screen.dart';
+import 'package:first_class/start_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: SaveNameScreen(),
+    home: splashScreen(),
   ));
 }
 
